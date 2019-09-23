@@ -14,4 +14,9 @@ public class Calculator {
         return x-y;
     }
 
+    //divide two numbers
+    public float divide(int x, int y){
+        return x/y;
+    }
+
 }
