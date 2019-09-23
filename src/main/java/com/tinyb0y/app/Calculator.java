@@ -5,8 +5,13 @@ public class Calculator {
     public int add(int x, int y){
         return x + y;
     }
-
+    // multiply two numbers
     public int mul(int x, int y){
         return x * y;
     }
+    // subtract two numbers
+    public int sub(int x, int y){
+        return x-y;
+    }
+
 }

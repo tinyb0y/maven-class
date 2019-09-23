@@ -19,5 +19,10 @@ public class CalculatorTest {
         assertEquals(25, res);
     }
 
-
+    @Test
+    public void sub() {
+        Calculator calc = new Calculator();
+        int res = calc.sub(5, 5);
+        assertEquals(0, res);
+    }
 }
