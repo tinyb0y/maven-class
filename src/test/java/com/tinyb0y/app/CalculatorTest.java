@@ -32,4 +32,11 @@ public class CalculatorTest {
         float res = calc.divide(5, 5);
         assertEquals(1.0, res, 0.1);
     }
+    @Test
+    public void divide2() {
+        Calculator calc = new Calculator();
+        float res = calc.divide(10, 5);
+        assertEquals(2.0, res, 0.1);
+    }
+
 }
