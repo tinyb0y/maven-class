@@ -7,12 +7,10 @@ public class Calculator {
     }
     // multiply two numbers
     public int mul(int x, int y){
-        int z = 0;
         return x * y;
     }
     // subtract two numbers
     public int sub(int x, int y){
-        int z = 0;
         return x-y;
     }
 
